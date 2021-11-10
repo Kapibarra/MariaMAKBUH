@@ -1,0 +1,9 @@
+@mixin orangeButton {
+    width: 350px;
+    height: 60px;
+    padding: 0px;
+    border: none;
+    color: $black;
+    background: $orange;
+    font-size: $link;
+}
