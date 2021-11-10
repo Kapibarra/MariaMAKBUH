@@ -1,0 +1,35 @@
+.service__wrapper {
+    background: url(../../src/img/service-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.service {
+    width: 100%;
+    max-width: 1580px;
+    margin: 0 auto;
+}
+
+.service__title {
+    font-size: $title;
+    font-weight: $light;
+    padding-bottom: 55px;
+}
+
+.service__top-section {
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top__section-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    & .section__item-text {
+        margin-left: 20px;
+    }
+}
