@@ -8,12 +8,19 @@
     width: 100%;
     max-width: 1580px;
     margin: 0 auto;
+    margin-bottom: 90px;
 }
 
 .about__title {
     font-size: $title;
     font-weight: $light;
     margin-top: 25px;
+}
+
+.about__title-white {
+    font-size: $title;
+    font-weight: $light;
+    color: $white;
 }
 
 .about__top-section {
@@ -51,10 +58,14 @@
         margin-bottom: 50px;
         font-size: $link;
         font-weight: $light;
+        color: $white;
     }
     & .btm__section-subtitle-right {
         width: 100%;
         max-width: 595px;
         margin-top: 30px;
+        font-size: $mainfontsize;
+        font-weight: $light;
+        text-align: right;
     }
 }
