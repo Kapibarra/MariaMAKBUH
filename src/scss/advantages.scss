@@ -1,0 +1,96 @@
+.advantages {
+    width: 100%;
+    max-width: 1580px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.advantages__title {
+    font-size: $title;
+    font-weight: $light;
+}
+
+.advantages__top-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 45px;
+    margin-bottom: 70px;
+}
+
+.top__section-text {
+    padding-left: 115px;
+    width: 100%;
+    max-width: 540px;
+    & .top__section-subtitle {
+        font-size: $midtext;
+        font-weight: $light;
+        margin-bottom: 15px;
+        margin-top: 30px;
+    }
+    & .top__section-text-block {
+        font-size: $mainfontsize;
+        font-weight: $light;
+    }
+}
+
+.top__section-imgs {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    & .imgs-item {
+        margin-bottom: 15px;
+    }
+}
+
+.advanages__btm-section {
+    padding-left: 115px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.btm-section-text-block1 {
+    margin-right: 15px;
+    text-align: left;
+    & h3 {
+        font-size: $midtext;
+        font-weight: $light;
+        margin-bottom: 35px;
+    }
+    & p {
+        font-size: $mainfontsize;
+        font-weight: $light;
+    }
+}
+
+.btm-section-text-block2 {
+    margin-right: 15px;
+    text-align: center;
+    & h3 {
+        font-size: $midtext;
+        font-weight: $light;
+        margin-bottom: 35px;
+    }
+    & p {
+        font-size: $mainfontsize;
+        font-weight: $light;
+    }
+}
+
+.btm-section-text-block3 {
+    text-align: right;
+    & h3 {
+        font-size: $midtext;
+        font-weight: $light;
+        margin-bottom: 35px;
+    }
+    & p {
+        font-size: $mainfontsize;
+        font-weight: $light;
+    }
+}
