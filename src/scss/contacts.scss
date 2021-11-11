@@ -13,8 +13,8 @@
 .contacts__title {
     color: $white;
     font-weight: $light;
-    padding-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 40px;
+    margin-bottom: 50px;
     width: 100%;
     max-width: 1050px;
     font-size: $midtext;
@@ -22,6 +22,8 @@
 
 .main__form {
     display: flex;
+    flex-direction: row;
+    padding-bottom: 120px;
 }
 
 .contacts__social-wrapper {
@@ -48,14 +50,36 @@
         color: $white;
         font-size: $link;
         font-weight: $light;
+        margin-left: 30px;
     }
     & .form__control {
         width: 400px;
         height: 60px;
+        padding: 0;
+        box-sizing: border-box;
         margin-bottom: 30px;
+        margin-left: 30px;
         color: rgba($white, 0.7);
         font-weight: $light;
         border: 1px solid rgba($white, 0.5);
         background: $lightgreen;
+    }
+}
+
+.form__wrapper {
+    & form {
+        margin-left: 300px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 355px;
+        & button {
+            @include orangeButton;
+            margin-top: 28px;
+            margin-left: 30px;
+            &:hover {
+                cursor: pointer;
+            }
+        }
     }
 }
