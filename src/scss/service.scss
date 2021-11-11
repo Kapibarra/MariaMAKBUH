@@ -20,6 +20,7 @@
     width: 100%;
     max-width: 1350px;
     margin: 0 auto;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -29,7 +30,36 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    margin-bottom: 20px;
     & .section__item-text {
+        max-width: 500px;
         margin-left: 20px;
+        font-size: $mainfontsize;
+        font-weight: $light;
+    }
+}
+
+.service__btm-section {
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    & .btm__section-left {
+        width: 100%;
+        max-width: 610px;
+        font-size: $midtext;
+        font-weight: $light;
+        color: $white;
+    }
+    & .btm__section-right {
+        width: 100%;
+        max-width: 610px;
+        font-size: $link;
+        font-weight: $light;
+        text-align: right;
+        margin-top: 40px;
     }
 }
