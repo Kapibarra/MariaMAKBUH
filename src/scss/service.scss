@@ -32,6 +32,10 @@
     flex-direction: row;
     flex-wrap: nowrap;
     margin-bottom: 20px;
+    & .section__item-img {
+        display: flex;
+        align-items: center;
+    }
     & .section__item-text {
         max-width: 500px;
         margin-left: 20px;

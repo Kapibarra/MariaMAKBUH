@@ -1,0 +1,46 @@
+.price__wrapper {
+    width: 100%;
+    max-width: 1580px;
+    margin: 0 auto;
+}
+
+.price__title {
+    font-size: $title;
+    font-weight: $light;
+    margin-bottom: 20px;
+}
+
+.price__subtitle {
+    font-size: $mainfontsize;
+    font-weight: $light;
+    margin-bottom: 30px;
+}
+
+.price {
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.price__section-item {
+    display: flex;
+    margin-bottom: 20px;
+    & .section__item-text {
+        & a {
+            margin-left: 10px;
+            font-size: $mainfontsize;
+            font-weight: $light;
+            color: $green;
+            text-decoration: underline;
+        }
+    }
+}
+
+.price__main-link {
+    font-size: $mainfontsize;
+    font-weight: $light;
+    color: $green;
+    text-decoration: underline;
+    margin-top: 40px;
+}
