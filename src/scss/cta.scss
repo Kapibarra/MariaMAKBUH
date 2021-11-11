@@ -1,0 +1,50 @@
+.cta__wrapper {
+    background: $grey;
+    width: 100%;
+}
+
+.cta {
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cta__text-block {
+    width: 100%;
+    max-width: 380px;
+    margin-top: 55px;
+    & .cta__title {
+        font-size: $title;
+        font-weight: $light;
+        color: $green;
+        margin-bottom: 30px;
+    }
+    & .cta__subtitle {
+        color: $black;
+        font-weight: $light;
+        font-size: $mainfontsize;
+        margin-bottom: 30px;
+    }
+    & .cta__button {
+        width: 350px;
+        height: 60px;
+        background: $green;
+        color: $white;
+        border: none;
+        margin-bottom: 25px;
+        transition: all 250ms;
+        &:hover {
+            cursor: pointer;
+            transition: all 250ms;
+            background: $lightgreen;
+        }
+    }
+    & .cta__social-wrapper {
+        display: flex;
+        width: 160px;
+        justify-content: space-between;
+    }
+}
