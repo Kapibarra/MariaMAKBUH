@@ -8,6 +8,7 @@
     width: 100%;
     max-width: 1580px;
     margin: 0 auto;
+    margin-bottom: 120px;
 }
 
 .service__title {
@@ -50,6 +51,7 @@
     & .btm__section-left {
         width: 100%;
         max-width: 610px;
+        padding-bottom: 40px;
         font-size: $midtext;
         font-weight: $light;
         color: $white;
