@@ -49,3 +49,9 @@
         padding-right: 10px;
     }
 }
+
+@media screen and (max-width: 428px) {
+    .footer__nav ul li a {
+        font-size: 14px;
+    }
+}

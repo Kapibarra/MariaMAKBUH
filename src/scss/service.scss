@@ -88,6 +88,10 @@
         padding-left: 10px;
         padding-right: 10px;
     }
+    .top__section-item .section__item-img img {
+        width: 60px !important;
+        max-width: unset !important;
+    }
 }
 
 @media screen and (max-width: 1024px) {
