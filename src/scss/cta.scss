@@ -15,7 +15,7 @@
 .cta__text-block {
     width: 100%;
     max-width: 380px;
-    margin-top: 55px;
+    margin-top: 35px;
     & .cta__title {
         font-size: $title;
         font-weight: $light;
@@ -46,5 +46,14 @@
         display: flex;
         width: 160px;
         justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 1580px) {
+    .cta {
+        box-sizing: border-box;
+        padding-left: 10px;
+        padding-right: 10px;
+        justify-content: space-around;
     }
 }

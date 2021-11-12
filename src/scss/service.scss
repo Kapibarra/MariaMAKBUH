@@ -81,3 +81,11 @@
         color: $white;
     }
 }
+
+@media screen and (max-width: 1580px) {
+    .service {
+        box-sizing: border-box;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

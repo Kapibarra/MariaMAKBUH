@@ -44,3 +44,11 @@
     text-decoration: underline;
     margin-top: 40px;
 }
+
+@media screen and (max-width: 1580px) {
+    .price__wrapper {
+        box-sizing: border-box;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

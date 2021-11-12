@@ -80,3 +80,11 @@
         margin-top: 0 !important;
     }
 }
+
+@media screen and (max-width: 1580px) {
+    .about {
+        box-sizing: border-box;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
