@@ -72,14 +72,32 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        height: 355px;
+        height: 405px;
         & button {
             @include orangeButton;
-            margin-top: 28px;
+            margin-top: 44px;
             margin-left: 30px;
             &:hover {
                 cursor: pointer;
             }
+        }
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    .main__form {
+        flex-direction: column;
+        width: 700px;
+        margin: 0 auto;
+        & .contacts__links {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+        & .form__wrapper form {
+            height: unset;
+            margin-left: unset;
+            align-content: center;
         }
     }
 }

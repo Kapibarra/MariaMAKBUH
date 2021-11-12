@@ -14,13 +14,14 @@
 .about__title {
     font-size: $title;
     font-weight: $light;
-    margin-top: 25px;
+    margin-top: 35px;
 }
 
 .about__title-white {
     font-size: $title;
     font-weight: $light;
     color: $white;
+    padding-top: 10px;
 }
 
 .about__top-section {
@@ -53,7 +54,7 @@
     justify-content: space-between;
     & .btm__section-subtitle-left {
         width: 100%;
-        max-width: 575px;
+        max-width: 595px;
         margin-top: 35px;
         margin-bottom: 50px;
         font-size: $link;
@@ -67,5 +68,15 @@
         font-size: $mainfontsize;
         font-weight: $light;
         text-align: right;
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    .about__wrapper {
+        background-repeat: repeat-x;
+    }
+    .btm__section-subtitle-right {
+        color: $white;
+        margin-top: 0 !important;
     }
 }

@@ -94,3 +94,12 @@
         font-weight: $light;
     }
 }
+
+@media screen and (max-width: 1680px) {
+    .top__section-text {
+        padding-left: unset;
+    }
+    .advanages__btm-section {
+        padding-left: unset;
+    }
+}

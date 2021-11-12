@@ -55,7 +55,7 @@
     & .btm__section-left {
         width: 100%;
         max-width: 610px;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
         font-size: $midtext;
         font-weight: $light;
         color: $white;
@@ -67,5 +67,17 @@
         font-weight: $light;
         text-align: right;
         margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    .service__top-section {
+        flex-wrap: wrap;
+    }
+    .service__wrapper {
+        background-repeat: repeat-x;
+    }
+    .btm__section-right {
+        color: $white;
     }
 }
