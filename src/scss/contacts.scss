@@ -132,3 +132,10 @@
         font-size: 18px !important;
     }
 }
+
+@media screen and (max-width: 384px) {
+    .form__wrapper form button {
+        width: 290px;
+        margin-left: 0px;
+    }
+}

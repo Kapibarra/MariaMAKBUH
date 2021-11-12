@@ -61,3 +61,15 @@
         margin-bottom: 15px;
     }
 }
+
+@media screen and (max-width: 414px) {
+    .cta__button {
+        width: 250px !important;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .cta__title {
+        font-size: 32px !important;
+    }
+}

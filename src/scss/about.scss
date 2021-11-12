@@ -125,3 +125,21 @@
         font-size: 15px !important;
     }
 }
+
+@media screen and (max-width: 414px) {
+    .about__title-white {
+        font-size: 32px;
+    }
+    .btm__section-subtitle-left {
+        font-size: 16px !important;
+    }
+    .btm__section-subtitle-right {
+        margin-bottom: 10px !important;
+    }
+    .about__title {
+        font-size: 32px !important;
+    }
+    .top__section-subtitle {
+        font-size: 24px !important;
+    }
+}

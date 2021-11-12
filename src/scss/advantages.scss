@@ -139,3 +139,12 @@
         margin-top: 30px;
     }
 }
+
+@media screen and (max-width: 414px) {
+    .advantages {
+        margin-top: 50px !important;
+    }
+    .advantages__title {
+        font-size: 32px !important;
+    }
+}

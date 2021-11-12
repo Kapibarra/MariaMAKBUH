@@ -99,3 +99,9 @@
         background-position-x: 0%;
     }
 }
+
+@media screen and (max-width: 414px) {
+    .main__button {
+        width: 250px;
+    }
+}
