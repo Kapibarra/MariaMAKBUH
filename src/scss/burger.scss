@@ -7,7 +7,7 @@
     background: #fff;
     color: #fffefb;
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 24px;
     height: 100vh;
     right: -385px;
     padding: 10rem 2rem 2rem 2rem;
@@ -30,11 +30,11 @@
 
 .nav.expanded {
     right: 0;
-    opacity: 0.92 !important;
+    opacity: 0.97 !important;
 }
 
 .expanded {
-    opacity: 0.92 !important;
+    opacity: 0.95 !important;
 }
 
 .nav ul {
@@ -46,6 +46,13 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    & li a {
+        color: $black;
+    }
+}
+
+.header__contacts-itemmobile p a {
+    color: $black;
 }
 
 .nav-toggle {
@@ -57,7 +64,7 @@
     right: 20px;
     position: fixed;
     top: 5px;
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.9);
     padding: 10px;
     border-radius: 8px;
     width: 70px;

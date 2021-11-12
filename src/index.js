@@ -64,59 +64,8 @@ function burgerButtonToggle() {
 }
 window.addEventListener("scroll", burgerButtonToggle);
 
-
-// desktop menu stick toggle
-function stickyMenuToggle() {
-  const stickyMenu = document.querySelector(".sidebar-menu")
-  const yPos = window.scrollY;
-  if (yPos > 80) {
-    stickyMenu.classList.add("sidevisible")
-    stickyMenu.classList.remove("sideunvisible")
-  } else {
-    stickyMenu.classList.remove("sidevisible")
-    stickyMenu.classList.add("sideunvisible")
-  }
-}
-window.addEventListener("scroll", stickyMenuToggle);
-// mobile bottom menu trigger
-function stickyMobileMenuToggle() {
-  const stickyMobileMenu = document.querySelector(".mobile__menu-wrapper")
-  const yPos = window.scrollY;
-  if (yPos > 80) {
-    stickyMobileMenu.classList.add("sidevisible")
-    stickyMobileMenu.classList.remove("sideunvisible")
-  } else {
-    stickyMobileMenu.classList.remove("sidevisible")
-    stickyMobileMenu.classList.add("sideunvisible")
-  }
-}
-window.addEventListener("scroll", stickyMobileMenuToggle 
-  );
-
 // date year
 document.getElementById("year").innerHTML = new Date().getFullYear();
-
-/* TABS */
-function tabsChange() {
-  const checkBox = document.getElementById("toggle_checkbox");
-  const text1 = document.getElementById("text1");
-  const text2 = document.getElementById("text2");
-  const msk = document.getElementById("moscow");
-  const spb = document.getElementById("saintp")
-  if (checkBox.checked == true) {
-      text2.style.display = "block";
-      text1.style.display = "none";
-      spb.classList.add("active-city")
-      msk.classList.remove("active-city")
-  } else {
-      text1.style.display = "block";
-      text2.style.display = "none";
-      msk.classList.add("active-city")
-      spb.classList.remove("active-city")
-  }
-}
-
-document.getElementById("toggle_checkbox").addEventListener("click", tabsChange)
 
 const selector = document.getElementById("phonenum");
 const im = new Inputmask("+7(999)-999-99-99");
@@ -125,26 +74,3 @@ im.mask(selector);
 const selectorModal = document.getElementById("modalphonenum");
 const imModal = new Inputmask("+7(999)-999-99-99");
 imModal.mask(selectorModal);
-
-// slider 
-
-function slidesPlugin(activeSlide = 0) {
-  const slides = document.querySelectorAll('.slide')
-
-  slides[activeSlide].classList.add('active')
-  
-  for (const slide of slides) {
-      slide.addEventListener('click', () => {
-          clearActiveClass()
-          slide.classList.add('active')
-      })
-  }
-  function clearActiveClass() {
-      slides.forEach((slide) => {
-  slide.classList.remove('active')
-      })
-  }
-}
-slidesPlugin(2)
-
-	

@@ -13,8 +13,8 @@
     padding: .25em;
     width: 40px;
     height: 40px;
-    background-color: #01D0F7;
-    border: 2px solid #7670D2;
+    background-color: $white;
+    border: 1px solid $black;
     &.show {
         visibility: visible;
         opacity: 1;
@@ -24,15 +24,15 @@
         opacity: 0;
     }
     svg {
-        fill: #7670D2;
+        fill: $black;
         width: 24px;
         height: 12px;
     }
     &:hover {
-        background-color: #7670D2;
-        border: 2px solid #01D0F7;
+        background-color: $white;
+        border: 1px solid $black;
         svg {
-            fill: #01D0F7;
+            fill: $black;
         }
     }
 }
