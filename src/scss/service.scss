@@ -89,3 +89,20 @@
         padding-right: 10px;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .btm__section-right {
+        font-size: 18px !important;
+        margin-top: 0px !important;
+    }
+    .btm__section-left {
+        font-size: 18px !important;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .btm__section-left {
+        margin-bottom: 0px;
+    }
+}

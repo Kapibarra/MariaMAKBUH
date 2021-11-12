@@ -109,3 +109,26 @@
         padding-right: 10px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .contacts__links {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main__form {
+        width: unset !important;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .form__control {
+        width: unset !important;
+        margin-left: unset !important;
+    }
+    .contacts__title {
+        font-size: 24px !important;
+    }
+    .form__input label {
+        font-size: 18px !important;
+    }
+}

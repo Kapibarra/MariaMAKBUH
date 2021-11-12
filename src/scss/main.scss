@@ -66,3 +66,35 @@
         padding-right: 10px;
     }
 }
+
+@media screen and (max-width: 1280px) {
+    .main__block-wrapper {
+        background-position-x: 33%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .main__title {
+        font-size: 48px;
+        max-width: 450px;
+    }
+    .main__block-wrapper {
+        background-position-x: 44%;
+    }
+    .main__subtitle {
+        width: 50%;
+    }
+    .main__worktime {
+        padding-bottom: 85px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main__title {
+        font-size: 32px;
+        max-width: 450px;
+    }
+    .main__block-wrapper {
+        background-position-x: 0%;
+    }
+}

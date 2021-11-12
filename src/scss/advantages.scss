@@ -111,3 +111,31 @@
         padding-right: 10px;
     }
 }
+
+@media screen and (max-width: 1580px) {
+    .advantages__top-section {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .top__section-text {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .top__section-imgs {
+        flex-direction: column;
+        align-items: center;
+    }
+    .advanages__btm-section {
+        flex-direction: column;
+    }
+    .btm-section-text-block2 {
+        text-align: left;
+        margin-top: 30px;
+    }
+    .btm-section-text-block3 {
+        text-align: left;
+        margin-top: 30px;
+    }
+}

@@ -51,4 +51,15 @@
         padding-left: 10px;
         padding-right: 10px;
     }
+    .price__section-item .section__item-img img {
+        width: 60px !important;
+        max-width: unset !important;
+    }
+    .section__item-img {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin-right: 10px;
+    }
 }

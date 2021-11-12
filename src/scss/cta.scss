@@ -55,5 +55,9 @@
         padding-left: 10px;
         padding-right: 10px;
         justify-content: space-around;
+        flex-wrap: wrap-reverse;
+    }
+    .cta__text-block {
+        margin-bottom: 15px;
     }
 }
