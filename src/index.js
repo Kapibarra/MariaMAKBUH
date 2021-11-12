@@ -50,6 +50,22 @@ scrollToTopButton.onclick = function (e) {
   // hamburger.nav.addEventListener('click', function(e) { hamburger.doToggle(e); });
 }());
 
+
+// Burger on click close menu 
+const link = document.querySelectorAll('.mobile-nav-link')
+for (let i = 0; i < link.length; i++) {
+  link[i].addEventListener('click', closeBurger)
+}
+
+function closeBurger() {
+const navToggle = document.querySelector('.nav-toggle')
+const nav = document.querySelector('.nav')
+
+navToggle.classList.remove('expanded');
+nav.classList.remove('expanded');
+}
+
+
 // Burger onscroll toggle
 function burgerButtonToggle() {
   const burgerButton = document.querySelector(".nav-toggle")
