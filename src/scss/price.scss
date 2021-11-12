@@ -62,6 +62,13 @@
         justify-content: center;
         margin-right: 10px;
     }
+    .price__section-item {
+        & .section__item-text {
+            & a {
+                margin-left: 0px;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 414px) {
