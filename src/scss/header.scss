@@ -33,6 +33,12 @@
                 color: $white;
                 font-size: $link;
                 font-weight: $light;
+                border-bottom: 1px solid rgba($white, 0);
+                transition: all .3s ease-in-out;
+                &:hover {
+                    border-bottom: 1px solid rgba($white, 1);
+                    transition: all .3s ease-in-out;
+                }
             }
         }
     }
