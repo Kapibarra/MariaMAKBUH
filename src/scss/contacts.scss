@@ -94,8 +94,12 @@
             @include orangeButton;
             margin-top: 44px;
             margin-left: 30px;
+            transition: all 250ms;
             &:hover {
+                transition: all 250ms;
                 cursor: pointer;
+                color: $white;
+                border-radius: 5px;
             }
         }
     }
