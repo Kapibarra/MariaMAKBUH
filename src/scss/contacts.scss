@@ -105,6 +105,11 @@
     }
 }
 
+input::placeholder {
+    color: rgba($white, 0.5);
+    padding-left: 10px;
+}
+
 @media screen and (max-width: 1680px) {
     .main__form {
         flex-direction: column;

@@ -17,6 +17,15 @@
     color: $white;
     display: flex;
     align-items: center;
+    & a {
+        color: rgba($white, 0.7);
+        transition: all 250ms;
+        &:hover {
+            text-decoration: none;
+            color: rgba($white, 1);
+            transition: all 250ms;
+        }
+    }
 }
 
 .footer__nav {
@@ -37,6 +46,12 @@
                 font-size: $link;
                 font-weight: $light;
                 margin-bottom: 10px;
+                border-bottom: 1px solid rgba($white, 0);
+                transition: all .3s ease-in-out;
+                &:hover {
+                    border-bottom: 1px solid rgba($white, 1);
+                    transition: all .3s ease-in-out;
+                }
             }
         }
     }
