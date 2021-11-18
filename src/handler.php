@@ -42,10 +42,10 @@ try {
 
 	$mail->Subject = $mail_subject;
 	$mail->Body = '
-		<strong>Form:</strong> ' . $mail_category1 . '<br>
-		<strong>TaxForm:</strong> ' . $mail_category2 . '<br>
-		<strong>Field:</strong> ' . $mail_category3 . '<br>
-		<strong>Phone:</strong> ' . $mail_from_phone . '<br>
+		<strong>Форма:</strong> ' . $mail_category1 . '<br>
+		<strong>Система налооблажения:</strong> ' . $mail_category2 . '<br>
+		<strong>Сфера:</strong> ' . $mail_category3 . '<br>
+		<strong>Телефон:</strong> ' . $mail_from_phone . '<br>
 		<strong>Email:</strong> ' . $mail_from_email; 
 	$mail->Send();
 
