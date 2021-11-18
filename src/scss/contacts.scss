@@ -106,8 +106,13 @@
 }
 
 input::placeholder {
-    color: rgba($white, 0.5);
+    color: rgba($white, 0.7);
     padding-left: 10px;
+}
+
+input:focus {
+    border: none;
+    outline: rgba($white, 0.7);
 }
 
 @media screen and (max-width: 1680px) {
