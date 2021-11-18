@@ -293,41 +293,43 @@
                         <a href="#">pochta@mail.ru</a>
                     </div>
                     <div class="form__wrapper wow animate__animated animate__fadeIn">
-                        <form action="handler.php">
+                        <form action="../src/handler.php">
                             <div class="form__input">
                                 <label for="fewF">Организационно-правовая форма</label>
                                 <select class="form__control" name="category1">
-                                    <option>ТОВ</option>
-                                    <option>Bananas</option>
-                                    <option>Grapes</option>
-                                    <option>Oranges</option>
+                                    <option value="ИП/Физ.лицо">ИП/Физ.лицо</option>
+                                    <option value="ООО">ООО</option>
+                                    <option value="Акционерное общество">Акционерное общество</option>
+                                    <option value="НКО">НКО</option>
+                                    <option value="Иное">Иное</option>
                                 </select>
                             </div>
                             <div class="form__input">
                                 <label for="fewF">Система налогооблажения</label>
                                 <select class="form__control" name="category2">
-                                    <option>Общая система</option>
-                                    <option>Bananas</option>
-                                    <option>Grapes</option>
-                                    <option>Oranges</option>
+                                    <option value="Общая система">Общая система</option>
+                                    <option value="Упрощённая система 6">Упрощённая система 6%</option>
+                                    <option value="Упрощённая система 15">Упрощённая система 15%</option>
+                                    <option value="Патентная система">Патентная система</option>
                                 </select>
                             </div>
                             <div class="form__input">
-                                <label for="fewF">Вид деятельности</label>
-                                <select class="form__control" name="category">
-                                    <option>Экспорт/Импорт</option>
-                                    <option>Bananas</option>
-                                    <option>Grapes</option>
-                                    <option>Oranges</option>
+                                <label for="fewF">Сфера деятельности</label>
+                                <select class="form__control" name="category3">
+                                    <option value="Оказание услуг">Оказание услуг</option>
+                                    <option value="Торговля">Торговля</option>
+                                    <option value="Производство">Производство</option>
+                                    <option value="Строительство">Строительство</option>
+                                    <option value="Иное">Иное</option>
                                 </select>
                             </div>
                             <div class="form__input">
                                 <label for="fewF">Имя</label>
-                                <input class="form__control" label="Имя" placeholder="Ваш E-Mail" name="name"></input>
+                                <input type="text" class="form__control" label="Имя" placeholder="Ваш E-Mail" name="email"></input>
                             </div>
                             <div class="form__input">
                                 <label for="fewF">Телефон</label>
-                                <input class="form__control" label="Телефон" placeholder="+7 (999) 999-99-99" name="email"></input>
+                                <input type="text" class="form__control" label="Телефон" placeholder="+7 (999) 999-99-99" name="phone"></input>
                             </div>
                             <button class="form__btn" type="submit">Отправить</button>
                         </form>

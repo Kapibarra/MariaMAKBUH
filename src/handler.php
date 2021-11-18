@@ -15,7 +15,7 @@ $mail_to_name = 'novikovweb.ru';
 try {
 
 	$mail_from_email = isset( $_POST['email'] ) ? $_POST['email'] : '';
-	$mail_from_name = isset( $_POST['name'] ) ? $_POST['name'] : '';
+	$mail_from_phone = isset( $_POST['phone'] ) ? $_POST['phone'] : '';
 	$mail_category1 = isset( $_POST['category1'] ) ? $_POST['category1'] : '';
 	$mail_category2 = isset( $_POST['category2'] ) ? $_POST['category2'] : '';
 	$mail_category3 = isset( $_POST['category3'] ) ? $_POST['category3'] : '';
@@ -42,11 +42,11 @@ try {
 
 	$mail->Subject = $mail_subject;
 	$mail->Body = '
-		<strong>Category1:</strong> ' . $mail_category1 . '<br>
-		<strong>Category2:</strong> ' . $mail_category2 . '<br>
-		<strong>Category3:</strong> ' . $mail_category3 . '<br>
-		<strong>Name:</strong> ' . $mail_from_name . '<br>
-		<strong>Email:</strong> ' . $mail_from_email . 
+		<strong>Form:</strong> ' . $mail_category1 . '<br>
+		<strong>TaxForm:</strong> ' . $mail_category2 . '<br>
+		<strong>Field:</strong> ' . $mail_category3 . '<br>
+		<strong>Phone:</strong> ' . $mail_from_phone . '<br>
+		<strong>Email:</strong> ' . $mail_from_email; 
 	$mail->Send();
 
 	echo 'Message has been sent';
