@@ -1,7 +1,13 @@
+.retina-bg-wrap {
+    background: rgba($green, 1);
+}
+
 .main__block-wrapper {
     background: url(../../src/img/main-bg.png);
     background-position-y: 1%;
     background-repeat: no-repeat;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 .main {
@@ -65,7 +71,7 @@
     color: $white;
     font-size: $link;
     font-weight: $light;
-    padding-bottom: 95px;
+    padding-bottom: 90px;
 }
 
 @media screen and (max-width: 1580px) {
