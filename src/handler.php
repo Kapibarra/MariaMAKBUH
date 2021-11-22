@@ -8,9 +8,9 @@ require 'php/PHPMailer-5.2.28/src/PHPMailer.php';
 require 'php/PHPMailer-5.2.28/src/SMTP.php';
 
 $mail = new PHPMailer(true);
-$mail_subject = 'Заявка с сайта';
-$mail_to_email = 'nikita.nov2016@yandex.ru'; // your email
-$mail_to_name = 'novikovweb.ru';
+$mail_subject = 'Заявка с сайта makbuh.ru';
+$mail_to_email = 'direct-makbuh@yandex.ru'; // your email
+$mail_to_name = 'makbuh.ru';
 
 try {
 
@@ -30,7 +30,7 @@ try {
 	$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
 	$mail->Port = 465; // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
-	$mail->setFrom($mail->Username, 'NovikovWeb.ru'); // Your email
+	$mail->setFrom($mail->Username, 'Makbuh.ru'); // Your email
 	$mail->addAddress($mail_to_email, $mail_to_name); // Add a recipient на какой емейл отправить!! проверить!!!!
 
 	for($ct=0; $ct<count($_FILES['file_attach']['tmp_name']); $ct++) {
