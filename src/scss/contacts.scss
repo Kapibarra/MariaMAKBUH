@@ -40,6 +40,12 @@
             filter: brightness(1);
         }
     }
+    & .social__item-icon a {
+        border-bottom: none;
+        &:hover {
+            border-bottom: none;
+        }
+    }
 }
 
 .contacts__links {
